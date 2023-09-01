@@ -1,5 +1,7 @@
-package Singleton;
-
+import Singleton.SingletonEager;
+import Singleton.SingletonLazy;
+import Singleton.SingletonLazyHolder;
+import facade.Facade;
 import strategy.*;
 
 public class Main {
@@ -43,6 +45,9 @@ public class Main {
 
         robo.setComportamento(single);
         robo.mover();
+
+        Facade facade = new Facade();
+        facade.migrarCliente("Daniel", "86020320");
 
 
     }
