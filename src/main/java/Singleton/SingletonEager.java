@@ -1,3 +1,5 @@
+package Singleton;
+
 public class SingletonEager {
     private static SingletonEager instance = new SingletonEager();
 
